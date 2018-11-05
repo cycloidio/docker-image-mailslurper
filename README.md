@@ -21,5 +21,7 @@ Currently we decided not to push any docker image with previous versions than th
 ## License
 
 The MIT License (MIT)
-Copyright (c) 2018 cycloid.io
+
+Copyright (c) 2018 [cycloid.io](https://cycloid.io)
+
 Read the LICENSE file for more information.
