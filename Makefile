@@ -9,7 +9,7 @@ help: ## Show this help
 
 .PHONY: build
 build: ## Build the docker image
-	@docker build -t cycloid/mailslurper:$(VERSION) .
+	@docker build --build-arg MSP_VER=$(VERSION) -t cycloid/mailslurper:$(VERSION) .
 
 
 .PHONY: push
