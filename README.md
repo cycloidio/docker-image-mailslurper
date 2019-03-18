@@ -16,7 +16,7 @@ Where `{TAG}` is the docker tag which specifies the MailSlurper version.
 
 ## Important considerations
 
-Currently we decided not to push any docker image with previous versions than the last one when this repo was created nor to push any image without a docker tag (as you should know it defaults to latest).
+Currently, we decided not to push any docker image with previous versions than the last one when this repo was created nor to push any image without a docker tag (as you probably know it defaults to latest), because we believe that we should always know which version is going to be executed rather than executing one that is different depending on the time.
 
 ## License
 
